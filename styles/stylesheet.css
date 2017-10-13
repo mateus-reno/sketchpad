@@ -3,6 +3,14 @@ body, html {
     margin: 0;
 }
 
+h1 {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: white;
+  text-align: center;
+}
+
 .background-img {
   background-image: url("../images/background.jpg");
   height: 100%;
@@ -23,20 +31,24 @@ body, html {
   white-space:nowrap;
 }
 
-#button {
+.button {
   text-align: center;
   height: 0;
   position: relative;
 }
 
-button {
+#start {
   margin-top: 20px;
+}
+
+#clear {
+  margin-top: 0px;
 }
 
 .squares {
   margin: 1px;
   padding: 0;
-  background-color: #4d3d00;
+  background-color: #fff;
   display: inline-block;
   float: left;
 }
