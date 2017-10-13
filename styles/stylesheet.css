@@ -1,0 +1,21 @@
+#main {
+  left: 50%;
+  transform: translateX(-50%);
+  height: 780px;
+  width: 780px;
+  background-color: red;
+  position: relative;
+  font-size:0;
+  white-space:nowrap;
+}
+
+.squares {
+  margin: 1px;
+  padding: 0;
+  background-color: blue;
+  display: inline-block;
+  float: left;
+}
+.hover {
+  background-color: green;
+}
