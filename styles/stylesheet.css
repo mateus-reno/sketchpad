@@ -1,21 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background-img {
+  background-image: url("../images/background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #main {
   left: 50%;
-  transform: translateX(-50%);
-  height: 780px;
-  width: 780px;
-  background-color: red;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: 500px;
+  background-color: #b36b00;
   position: relative;
   font-size:0;
   white-space:nowrap;
 }
 
+#button {
+  text-align: center;
+  height: 0;
+  position: relative;
+}
+
+button {
+  margin-top: 20px;
+}
+
 .squares {
   margin: 1px;
   padding: 0;
-  background-color: blue;
+  background-color: #4d3d00;
   display: inline-block;
   float: left;
 }
 .hover {
-  background-color: green;
+  background-color: #e6b800;
 }

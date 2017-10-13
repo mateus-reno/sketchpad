@@ -12,8 +12,8 @@ $(document).ready(function() {
       $("<div class='squares'></div>").appendTo('#main');
     }
     //we only want to declare this once so we place it after the loop
-    $(".squares").width((780 / columnWidth) - 2);
-    $(".squares").height((780 / columnHeight) - 2);
+    $(".squares").width((500 / columnWidth) - 2);
+    $(".squares").height((500 / columnHeight) - 2);
     $('.squares').hover(
       function() {
         $(this).addClass('hover');
