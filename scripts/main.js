@@ -22,4 +22,13 @@ $(document).ready(function() {
   }
   //fire the initial function
   makeBoxes();
+
+  $('button').on('click', function() {
+    $('div').remove('.squares');
+    var columnCount = prompt("Please enter the number of squares for the height of the grid")
+    var rowCount = prompt("Please enter the number of squares for the width of the grid")
+    columnWidth = parseInt(rowCount);
+    columnHeight = parseInt(columnCount);
+    makeBoxes();
+  });
 });
